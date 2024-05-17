@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page Boilerplate
+
+This project provides a flexible starting point for building landing pages.
+
+## Features
+
+- **Next.js 14 & TypeScript**:
+  - The latest version of the popular React framework with strongly typed JavaScript for a better developer experience.
+- **UI & Styling**:
+  - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+  - **Framer Motion**: An animation library for React.
+  - **shadcn/ui**: High-quality, accessible UI components.
+- **Code Quality**:
+  - **ESLint**: Airbnb Style Guide.
+  - **Prettier**: Code formatter for consistent code style.
+  - **Husky & Lint Staged**: Git hooks for automating tasks.
+  - **Tailwind Class Sorting**: Automatic sorting of Tailwind CSS classes.
+- **SEO Ready**: All essential SEO files preset.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/Sellucas/landing-page-boilerplate.git
+   cd landing-page-boilerplate
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies:**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+    npm i
+   ```
 
-## Learn More
+3. **Run the development server**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Here are the main scripts available in this project:
 
-## Deploy on Vercel
+- **`npm run dev`**: Starts the development server.
+- **`npm run build`**: Builds the application for production.
+- **`npm run start`**: Starts the production server.
+- **`npm run lint`**: Runs ESLint to lint the codebase.
+- **`npm run prepare`**: Sets up Husky for git hooks.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Open a pull request.
