@@ -40,6 +40,12 @@ To get started with this project, follow these steps:
    npm run dev
    ```
 
+4. **Changing Remote URL**
+
+   ```bash
+   git remote set-url origin <new-remote-url>
+   ```
+
 ## Scripts
 
 Here are the main scripts available in this project:
@@ -49,6 +55,14 @@ Here are the main scripts available in this project:
 - **`npm run start`**: Starts the production server.
 - **`npm run lint`**: Runs ESLint to lint the codebase.
 - **`npm run prepare`**: Sets up Husky for git hooks.
+
+## Changing Remote URL
+
+If you've cloned this project and want to use it as a base for your own project, you might want to update the remote URL to point to your own repository on GitHub. You can do this using the following command:
+
+```bash
+git remote set-url origin <new-remote-url>
+```
 
 ## Contributing
 
